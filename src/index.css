@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+/* Add smooth scroll for navbar links */
+.navbar a {
+  scroll-behavior: smooth;
+}
