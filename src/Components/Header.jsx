@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import SpynadWT from "../assets/Spynad-W-Trans.png";
+import SpynadWT from "../assets/SPYNAD-W-Trans.png";
 import SplitText from "./SplitText";
 import { useNavigate } from "react-router-dom";
 
