@@ -2,14 +2,13 @@ import React from "react";
 import Navbar from "./Navbar";
 import SpynadWT from "../assets/Spynad-W-Trans.png";
 import SplitText from "./SplitText";
-import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
 
   const handleAnimationComplete = () => {
-    console.log('All letters have animated!');
+    console.log("All letters have animated!");
   };
 
   return (
@@ -26,8 +25,8 @@ const Header = () => {
           text="Marketing That Speaks, Converts and Grows"
           className="-mt-35 text-4xl sm:text-5xl md:text-[65px] font-semibold text-white max-w-3xl"
           delay={50}
-          animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-          animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+          animationFrom={{ opacity: 0, transform: "translate3d(0,50px,0)" }}
+          animationTo={{ opacity: 1, transform: "translate3d(0,0,0)" }}
           easing="easeOutCubic"
           threshold={0.2}
           rootMargin="-50px"
@@ -36,7 +35,7 @@ const Header = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-8">
           <motion.button
-            onClick={() => navigate('/projects')}
+            onClick={() => navigate("/projects")}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full text-white font-medium
@@ -46,7 +45,7 @@ const Header = () => {
           </motion.button>
 
           <motion.button
-            onClick={() => navigate('/contact')}
+            onClick={() => navigate("/contact")}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 bg-white/5 backdrop-blur-sm rounded-full text-white font-medium
@@ -56,7 +55,7 @@ const Header = () => {
           </motion.button>
         </div>
       </div>
-      
+
       {/* Dividerr */}
       <div className="absolute -bottom-20 left-0 right-0">
         <div className="h-px bg-gradient-to-r from-transparent via-purple-500/30 to-transparent" />
