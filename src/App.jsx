@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar.jsx";
 import Header from "./Components/Header.jsx";
-import About from "./Components/About.Jsx";
+import About from "./Components/About.jsx";
 import Projects from "./Components/Projects.jsx";
 import Contact from "./Components/Contact.jsx";
 import ProjectDetail from "./Components/ProjectDetail.jsx";
