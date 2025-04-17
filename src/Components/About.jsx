@@ -1,5 +1,5 @@
 import React from "react";
-import { useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Yashwanth from "../assets/Yashwanth.jpg";
 import Santa from "../assets/Santa.jpg";

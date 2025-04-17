@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import SpynadWT from "../assets/SPYNAD-W-Trans.png";
 import SplitText from "./SplitText";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const navigate = useNavigate();
